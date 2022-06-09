@@ -1,0 +1,14 @@
+**/.vscode
+**/openimis-be_py
+**/openimis-db_dkr
+**/.idea
+**/venv
+**/.env
+**/__pycache__
+modules-requirements.txt
+modules-tests.sh
+**/.coverage
+**/coverage.xml
+**/coverage
+**/*.log
+**/*.log.*

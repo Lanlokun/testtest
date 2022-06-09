@@ -1,0 +1,31 @@
+# Python Django
+# Test a Django project on multiple versions of Python.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/python
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+strategy:
+  matrix:
+    Python38:
+      PYTHON_VERSION: '3.8'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '$(PYTHON_VERSION)'
+    architecture: 'x64'
+
+
+- script: |
+    git submodule init
+    git submodule update
+    python -m pip install --upgrade pip setuptools wheel
+    pip install -r requirements.txt
+  displayName: 'Install prerequisites'
+
+- task: PublishTestResults@2
+

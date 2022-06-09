@@ -1,0 +1,9 @@
+django
+django-db-signals
+djangorestframework
+openimis-be-core
+openimis-be-insuree
+openimis-be-payroll_cycle
+openimis-be-programs
+openimis-be-report
+openimis-be-service_provider

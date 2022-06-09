@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: openimis-be-payroll-cycle
+Version: 1.0.0
+Summary: The openIMIS Backend payroll_cycle reference module.
+Home-page: https://2m-corp.com/
+Author: 2M Corp
+Author-email: info@2m-corp.com
+License: GNU AGPL v3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

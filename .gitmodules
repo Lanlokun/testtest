@@ -1,0 +1,7 @@
+[submodule "openimis-be_py"]
+    path = openimis-be_py
+    url = https://github.com/openimis/openimis-be_py.git
+ 
+[submodule "openimis-db_dkr"]
+    path = openimis-db_dkr
+    url = https://github.com/openimis/openimis-db_dkr.git
